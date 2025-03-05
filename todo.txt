@@ -1,7 +1,7 @@
 #1 => nać dataset....skinut samo csv iz interneta i provjerit ga prema uputama (jako oprezno i detaljno provjerit :) )
 #2 => iz CSV-a izmislit neku priču..ča želimo napravit (strateško odlučivanje)...naša interpretacija
 #3 => nešto s nekon python skripton
-#4 => treba nan velik i kvalitetan skup podataka (više od 100 000 redaka, više od 100 stupaca, bar 4/5 dimenzija di jedna mora bit vrijeme (datetime), ne smi bit previše NULL vrijednosti (ča manje, to bolje NULL-ova), čim više numerical i string podataka
+#4 => treba nan velik i kvalitetan skup podataka (više od 150 000 redaka, više od 20 stupaca, bar 4/5 dimenzija di jedna mora bit vrijeme (datetime), ne smi bit previše NULL vrijednosti (ča manje, to bolje NULL-ova), čim više numerical i string podataka
 #5 => kad najdemo dataset (danas, najkasnije sutra) poslat ga na forum...ne smi bit korišten lani
 #6 => jedinstvene vrijednosti, tipovi podataka, frekvencija vrijednosti po stupcu
 
