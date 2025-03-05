@@ -1,1 +1,2 @@
 #1 => nać dataset....skinut samo csv iz interneta i provjerit ga prema uputama (jako oprezno i detaljno provjerit :) )
+#2 => iz CSV-a izmislit neku priču..ča želimo napravit (strateško odlučivanje)...naša interpretacija
