@@ -9,5 +9,5 @@
 https://moodle.srce.hr/2024-2025/pluginfile.php/11125803/mod_resource/content/1/Analiza%20skupa%20podataka.html
 https://moodle.srce.hr/2024-2025/mod/page/view.php?id=4588220
 
-FORŠI:
-https://www.kaggle.com/code/rishpande/ufc-data-analysis-visualization-beginner
+LINK ZA CHECKPOINT:
+https://colab.research.google.com/drive/1kNxHh2ph8kia1DW02dp8uWowdcEbEAPF#scrollTo=DYK7jFb817p4
