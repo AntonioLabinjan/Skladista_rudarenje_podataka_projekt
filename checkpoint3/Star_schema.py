@@ -93,7 +93,7 @@ class DimElection(Base):
 
 
 
-# SCD tip 2: izborna povijest
+# SCD tip 2: izborna povijest => SADRŽI SPORO MIJENJAJUĆE DIMENZIJE (MIJENJAJU SE PROTOKOM VREMENA)
 class DimElectionHistory(Base):
     __tablename__ = 'dim_election_history'
     __table_args__ = {'schema': 'zadnji'}
