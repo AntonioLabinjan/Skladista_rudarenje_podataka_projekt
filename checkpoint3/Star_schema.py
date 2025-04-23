@@ -34,7 +34,7 @@ print("Base-done")
 # ---------------------
 
 
-
+# dodat neku dodatnu hijerarhiju => name + još nešto (koja geografska regija brazila...east, west, south, north...)
 class DimCountry(Base):
     __tablename__ = 'dim_country'
     __table_args__ = {'schema': 'zadnji'}
@@ -44,6 +44,7 @@ class DimCountry(Base):
     name = Column(String(100))
 
 
+# dodat neku klasifikaciju (političko opredjeljenje...spektar ili nešto)
 class DimParty(Base):
     __tablename__ = 'dim_party'
     __table_args__ = {'schema': 'zadnji'}
