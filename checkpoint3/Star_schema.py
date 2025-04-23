@@ -68,7 +68,7 @@ class DimPerson(Base):
 
 
 
-
+# Hijerarhija: election → date → weekday (samo godina, za jednostavnost)
 class DimDate(Base):
     __tablename__ = 'dim_date'
     __table_args__ = {'schema': 'zadnji'}
@@ -81,7 +81,7 @@ class DimDate(Base):
     weekday = Column(String(10))
 
 
-# Hijerarhija: election → date → weekday (samo godina, za jednostavnost)
+
 class DimElection(Base):
     __tablename__ = 'dim_election'
     __table_args__ = {'schema': 'zadnji'}
@@ -93,7 +93,7 @@ class DimElection(Base):
 
 
 
-# SCD tip 2: izborna povijest => SADRŽI SPORO MIJENJAJUĆE DIMENZIJE (MIJENJAJU SE PROTOKOM VREMENA)
+# izborna povijest => SADRŽI SPORO MIJENJAJUĆE DIMENZIJE (MIJENJAJU SE PROTOKOM VREMENA)
 class DimElectionHistory(Base):
     __tablename__ = 'dim_election_history'
     __table_args__ = {'schema': 'zadnji'}
