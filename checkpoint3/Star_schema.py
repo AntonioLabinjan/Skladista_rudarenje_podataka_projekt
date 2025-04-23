@@ -41,6 +41,7 @@ class DimCountry(Base):
 
     country_tk = Column(BigInteger, primary_key=True)
     country_id = Column(Integer, index=True)
+    # region = Column(String(100)) => odkomentirat 
     name = Column(String(100))
 
 
